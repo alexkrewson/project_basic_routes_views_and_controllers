@@ -1,3 +1,16 @@
 <% provide(:title, @user.name) %>
-<img src="https://secure.gravatar.com/avatar/#{gravatar_id}">
+username: <%= @user.name %>
+<br>
+email: <%= @user.email %>
+<img src="https://secure.gravatar.com/avatar/#{gravatar_id}" />
 
+<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Ficatcare.org%2Fapp%2Fuploads%2F2019%2F09%2FThe-Kitten-Checklist-1.png&imgrefurl=https%3A%2F%2Ficatcare.org%2Favoid-heartache-with-the-kitten-checklist%2F&docid=DUyEe5OAFZgOLM&tbnid=UGUhb5Yuu-NdxM%3A&vet=10ahUKEwiwwqmh3pXmAhUgJDQIHT36DsgQMwh2KAAwAA..i&w=1200&h=600&client=ubuntu&bih=644&biw=1366&q=kitten&ved=0ahUKEwiwwqmh3pXmAhUgJDQIHT36DsgQMwh2KAAwAA&iact=mrc&uact=8" />
+
+
+
+<%= image_tag("https://www.google.com/imgres?imgurl=https%3A%2F%2Ficatcare.org%2Fapp%2Fuploads%2F2019%2F09%2FThe-Kitten-Checklist-1.png&imgrefurl=https%3A%2F%2Ficatcare.org%2Favoid-heartache-with-the-kitten-checklist%2F&docid=DUyEe5OAFZgOLM&tbnid=UGUhb5Yuu-NdxM%3A&vet=10ahUKEwiwwqmh3pXmAhUgJDQIHT36DsgQMwh2KAAwAA..i&w=1200&h=600&client=ubuntu&bih=644&biw=1366&q=kitten&ved=0ahUKEwiwwqmh3pXmAhUgJDQIHT36DsgQMwh2KAAwAA&iact=mrc&uact=8") %>
+
+<img src="/home/alex/the_odin_project/project_sample_app/app/assets/images/kitten.jpg" />
+
+
+<%= image_tag("kitten.jpg") %>
