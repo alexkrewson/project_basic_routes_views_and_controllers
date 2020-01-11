@@ -1,0 +1,9 @@
+<h1>index</h1>
+<br><br>
+
+
+<% @users.each do |user| %>
+    <li>
+        username: <%= link_to user.name, user %>
+    </li>
+<% end %>

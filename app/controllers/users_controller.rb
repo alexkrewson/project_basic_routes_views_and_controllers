@@ -5,7 +5,12 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
-    # debugger
+    debugger
   end
 
+
+  def index
+    @users = User.all
+    # debugger
+  end
 end
